@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+}
+
+h1 {
+    color: wheat;
+    font-size: 60px;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+}
+
+.help-div {
+    flex: auto;
+}
+
+.container {
+    display: flex;
+    margin: 50px;
+    flex-wrap: wrap;
+    width: 512px;
+    height: 512px;
+    border: 3px solid wheat;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    background-color: wheat;
+    color: black;
+    border-radius: 20px;
+}
+
+.colorPicker {
+    width: 80px;
+    height: 80px;
+}
